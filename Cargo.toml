@@ -76,7 +76,7 @@ std = ["alloc"]
 trust_anchor_util = ["std"]
 
 [dependencies]
-ring = { version = "0.16.19", default-features = false }
+ring = { git = "https://github.com/safematrix/ring.git", branch = "main", default-features = false }
 untrusted = "0.7.1"
 
 [dev-dependencies]
